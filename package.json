@@ -1,0 +1,36 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "Calendar",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yjkim26@github.com/yjkim26/calendar.git"
+  },
+  "keywords": [
+    "calendar"
+  ],
+  "author": "yjkim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yjkim26/calendar/issues"
+  },
+  "homepage": "https://github.com/yjkim26/calendar#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@types/next": "^7.0.6",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@zeit/next-typescript": "^1.1.1",
+    "typescript": "^3.2.2"
+  }
+}
