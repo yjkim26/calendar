@@ -1,6 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
 import Head from "next/head";
+import styled from "styled-components";
 
 type Props = {
   title?: string;
@@ -28,8 +29,15 @@ const Layout: React.SFC<Props> = ({
       </nav>
     </header>
     {children}
-    <footer>I'm here to stay</footer>
+    <footer>
+      <TestComponent>I'm here to stay</TestComponent>
+    </footer>
   </div>
 );
+
+const TestComponent = styled.div`
+  color: ${p => p.theme.color.black};
+  background: red;
+`;
 
 export default Layout;
