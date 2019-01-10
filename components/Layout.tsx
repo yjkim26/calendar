@@ -28,6 +28,7 @@ const Layout: React.SFC<Props> = ({
         </Link>
       </nav>
     </header>
+    {process.env.TEST}
     {children}
     <footer>
       <TestComponent>I'm here to stay</TestComponent>
